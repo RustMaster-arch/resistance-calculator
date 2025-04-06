@@ -182,13 +182,21 @@ duration-300 ease-in-out bg-yellow-600 p-4`}>
                 </div>
               </div>
             </div>
-
-
           </div>
+        </div>
+        <div className="absolute bottom-14 h-32 w-full transition-all duration-300 border-2 border-green-500 shadow-green-800
+          scale-50 hover:scale-75 rounded-2xl shadow-2xl flex justify-center items-center hover:rotate-x-12 hover:rotate-y-12">
+          <p className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-tr from-white  to-gray-500 to-60%">
+            Created by Juan Esteban Forero Montejo @rustmasterfullstack @Rustmaster-arch
+          </p>
         </div>
       </div>
     </>
   )
 }
 
+//<p className="absolute bottom-1 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-500
+//  inline-block credits">
+//  Created by Juan Esteban Forero Montejo @rustmasterfullstack @Rustmaster-arch
+//</p>
 export default App
